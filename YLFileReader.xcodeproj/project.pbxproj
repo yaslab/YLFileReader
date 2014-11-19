@@ -14,6 +14,7 @@
 		0E5AEDEE1A1CF76200F4ABCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AEDED1A1CF76200F4ABCB /* Images.xcassets */; };
 		0E5AEDF11A1CF76200F4ABCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AEDEF1A1CF76200F4ABCB /* LaunchScreen.xib */; };
 		0E5AEDFD1A1CF76200F4ABCB /* YLFileReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEDFC1A1CF76200F4ABCB /* YLFileReaderTests.m */; };
+		0E5AEE091A1CF7BC00F4ABCB /* YLFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEE081A1CF7BC00F4ABCB /* YLFileReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0E5AEDF61A1CF76200F4ABCB /* YLFileReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLFileReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5AEDFB1A1CF76200F4ABCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E5AEDFC1A1CF76200F4ABCB /* YLFileReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileReaderTests.m; sourceTree = "<group>"; };
+		0E5AEE071A1CF7BC00F4ABCB /* YLFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFileReader.h; sourceTree = "<group>"; };
+		0E5AEE081A1CF7BC00F4ABCB /* YLFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFileReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		0E5AEDDF1A1CF76100F4ABCB /* YLFileReader */ = {
 			isa = PBXGroup;
 			children = (
+				0E5AEE061A1CF77E00F4ABCB /* Classes */,
 				0E5AEDE41A1CF76100F4ABCB /* AppDelegate.h */,
 				0E5AEDE51A1CF76100F4ABCB /* AppDelegate.m */,
 				0E5AEDE71A1CF76100F4ABCB /* ViewController.h */,
@@ -117,6 +121,15 @@
 				0E5AEDFB1A1CF76200F4ABCB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E5AEE061A1CF77E00F4ABCB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AEE071A1CF7BC00F4ABCB /* YLFileReader.h */,
+				0E5AEE081A1CF7BC00F4ABCB /* YLFileReader.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5AEDE91A1CF76100F4ABCB /* ViewController.m in Sources */,
+				0E5AEE091A1CF7BC00F4ABCB /* YLFileReader.m in Sources */,
 				0E5AEDE61A1CF76100F4ABCB /* AppDelegate.m in Sources */,
 				0E5AEDE31A1CF76100F4ABCB /* main.m in Sources */,
 			);
