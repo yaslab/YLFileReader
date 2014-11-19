@@ -15,6 +15,7 @@
 		0E5AEDF11A1CF76200F4ABCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AEDEF1A1CF76200F4ABCB /* LaunchScreen.xib */; };
 		0E5AEDFD1A1CF76200F4ABCB /* YLFileReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEDFC1A1CF76200F4ABCB /* YLFileReaderTests.m */; };
 		0E5AEE091A1CF7BC00F4ABCB /* YLFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEE081A1CF7BC00F4ABCB /* YLFileReader.m */; };
+		0E5AEE0B1A1CFA9300F4ABCB /* YLFileReader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AEE0A1A1CFA9300F4ABCB /* YLFileReader.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0E5AEDFC1A1CF76200F4ABCB /* YLFileReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileReaderTests.m; sourceTree = "<group>"; };
 		0E5AEE071A1CF7BC00F4ABCB /* YLFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFileReader.h; sourceTree = "<group>"; };
 		0E5AEE081A1CF7BC00F4ABCB /* YLFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFileReader.m; sourceTree = "<group>"; };
+		0E5AEE0A1A1CFA9300F4ABCB /* YLFileReader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YLFileReader.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		0E5AEDD41A1CF76100F4ABCB = {
 			isa = PBXGroup;
 			children = (
+				0E5AEE0A1A1CFA9300F4ABCB /* YLFileReader.podspec */,
 				0E5AEDDF1A1CF76100F4ABCB /* YLFileReader */,
 				0E5AEDF91A1CF76200F4ABCB /* YLFileReaderTests */,
 				0E5AEDDE1A1CF76100F4ABCB /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5AEE0B1A1CFA9300F4ABCB /* YLFileReader.podspec in Resources */,
 				0E5AEDEC1A1CF76100F4ABCB /* Main.storyboard in Resources */,
 				0E5AEDF11A1CF76200F4ABCB /* LaunchScreen.xib in Resources */,
 				0E5AEDEE1A1CF76200F4ABCB /* Images.xcassets in Resources */,
