@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YLFileReader"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "YLFileReader is simple file reader."
   s.description  = <<-DESC
                    A longer description of YLFileReader in Markdown format.
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/yaslab/YLFileReader"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "yaslab" => "yaslab99@gmail.com" }
-  s.source       = { :git => "https://github.com/yaslab/YLFileReader.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/yaslab/YLFileReader.git", :tag => "0.0.2" }
   s.source_files = "YLFileReader/Classes/**/*.{h,m}"
 end
