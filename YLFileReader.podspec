@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.author       = { "yaslab" => "yaslab99@gmail.com" }
   s.source       = { :git => "https://github.com/yaslab/YLFileReader.git", :tag => "0.0.2" }
   s.source_files = "YLFileReader/Classes/**/*.{h,m}"
+  s.requires_arc = true
 end
