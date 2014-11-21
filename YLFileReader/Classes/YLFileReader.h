@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-NSString * const YLFileReaderErrorDomain = @"YLFileReaderErrorDomain";
+extern NSString * const YLFileReaderErrorDomain;
 
 typedef NS_ENUM(NSUInteger, YLFileReaderErrorCode) {
     YLFileReaderErrorCodeBufferSizeZeroOrNegative = 1,

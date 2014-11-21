@@ -13,6 +13,8 @@
 #define kLineBreakCodeLF 0x0a //'\n'
 #define kLineBreakCodeCR 0x0d //'\r'
 
+NSString * const YLFileReaderErrorDomain = @"YLFileReaderErrorDomain";
+
 @interface YLFileReader () {
     FILE *_stream;
     NSStringEncoding _encoding;
